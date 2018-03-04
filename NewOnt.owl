@@ -6,7 +6,297 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/kristyh/ontologies/2018/2/untitled-ontology-6"/>
+    <owl:Ontology rdf:about="http://www.thesoundofmusic.com/ontologies/thesoundofmusic.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000069 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000069">
+        <rdfs:comment>A film musical set in 1930&apos;s Austria. A young woman named Maria is failing miserably in her attempts to become a nun, and when the Navy captain Georg Von Trapp writes to Nonnberg Abbey asking for a governess that can handle his seven mischievous children, Maria is given the job.</rdfs:comment>
+        <rdfs:label xml:lang="en">TheSoundOfMusic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000070 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:comment>The characters in the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000071 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:comment>The cast members of the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">CastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000072 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000070"/>
+        <rdfs:comment>The female characters in the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">FemaleCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000074 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000070"/>
+        <rdfs:comment>The male characters in the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaleCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000075 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000071"/>
+        <rdfs:comment>The female cast members of the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">FemaleCastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000076 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000071"/>
+        <rdfs:comment>The male cast members of the film musical.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaleCastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000077 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A young woman who leaves Nonnberg Abbey to become the governess of seven children.</rdfs:comment>
+        <rdfs:label xml:lang="en">Maria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000079 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A wealthy and cultivated socialite with whom Captain Von Trapp is romantically involved.</rdfs:comment>
+        <rdfs:label xml:lang="en">BaronessSchraeder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000080 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>A retired Naval officer, widower, and the father of seven children.</rdfs:comment>
+        <rdfs:label xml:lang="en">CaptainGeorgVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000081 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>A close friend of the Von Trapp family.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaxDetweiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000082 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The reverend mother at Nonnberg Abbey.</rdfs:comment>
+        <rdfs:label xml:lang="en">MotherAbbess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000083 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">LieslVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000084 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The third eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">LouisaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000085 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>The second eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">FriedrichVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000086 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>The fourth eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">KurtVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000087 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The fifth youngest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">BrigittaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000088 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The sixth eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">MartaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000089 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The seventh eldest of the Von Trapp children.</rdfs:comment>
+        <rdfs:label xml:lang="en">GretlVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000090 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
+        <rdfs:label xml:lang="en">SisterMargaretta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000091 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
+        <rdfs:label xml:lang="en">SisterBerthe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000092 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000092">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>A Nazi official.</rdfs:comment>
+        <rdfs:label xml:lang="en">HerrZeller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000093 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>A telegram delivery boy who is romantically involved with Liesl Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rolfe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000094 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>The Von Trapp housekeeper.</rdfs:comment>
+        <rdfs:label xml:lang="en">FrauSchmidt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000095 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:comment>The Von Trapp butler.</rdfs:comment>
+        <rdfs:label xml:lang="en">Franz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000096 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000096">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
+        <rdfs:label xml:lang="en">SisterSophia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000097 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000097">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
+        <rdfs:label xml:lang="en">SisterBernice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000098 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:comment>An acquaintance of Captain Von Trapp’s.</rdfs:comment>
+        <rdfs:label xml:lang="en">BaronessEbberfield</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
