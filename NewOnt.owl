@@ -115,7 +115,7 @@
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000080">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
         <rdfs:comment>A retired Naval officer, widower, and the father of seven children.</rdfs:comment>
-        <rdfs:label xml:lang="en">CaptainGeorgVonTrapp</rdfs:label>
+        <rdfs:label xml:lang="en">CaptainVonTrapp</rdfs:label>
     </owl:Class>
     
 
@@ -296,6 +296,216 @@
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
         <rdfs:comment>An acquaintance of Captain Von Trapp’s.</rdfs:comment>
         <rdfs:label xml:lang="en">BaronessEbberfield</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000099 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000099">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1935 – present) who played Maria.</rdfs:comment>
+        <rdfs:label xml:lang="en">JulieAndrews</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000100 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1929 – present) who played Captain Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChristopherPlummer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000101 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000101">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1922 – 2013) who played Baroness Schraeder.</rdfs:comment>
+        <rdfs:label xml:lang="en">EleanorParker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000102 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1905 – 1985) who played Max Detweiler.</rdfs:comment>
+        <rdfs:label xml:lang="en">RichardHaydn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000103 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1892 – 1978) who played Mother Abbess.</rdfs:comment>
+        <rdfs:label xml:lang="en">PeggyWood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000104 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1942 – 2016) who played Liesl Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">CharmianCarr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000105 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1949 – 2017) who played Louisa Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeatherMenies-Urich</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000106 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1950 – present) who played Friedrich Von Trapp</rdfs:comment>
+        <rdfs:label xml:lang="en">NicholasHammond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000107 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000107">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1950 – present) who played Kurt Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">DuaneChase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000108 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1952 – present) who played Brigitta Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">AngelaCartwright</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000109 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1956 – present) who played Marta Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">DebbieTurner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000110 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1958 – present) who played Gretl Von Trapp.</rdfs:comment>
+        <rdfs:label xml:lang="en">KymKarath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000111 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1913 – 2004) who played Sister Margaretta.</rdfs:comment>
+        <rdfs:label xml:lang="en">AnnaLee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000112 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1920 – 2001) who played Sister Berthe.</rdfs:comment>
+        <rdfs:label xml:lang="en">PortiaNelson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000113 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1915 – 1989) who played Herr Zeller.</rdfs:comment>
+        <rdfs:label xml:lang="en">BenWright</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000114 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1943 – present) who played Rolfe.</rdfs:comment>
+        <rdfs:label xml:lang="en">DanielTruhitte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000115 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1898 – 1989) who played Frau Schmidt.</rdfs:comment>
+        <rdfs:label xml:lang="en">NormaVarden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000116 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:comment>The actor (1919 – 1977) who played Franz.</rdfs:comment>
+        <rdfs:label xml:lang="en">GilchristStuart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000117 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1930 – 2016) who played Sister Sophia.</rdfs:comment>
+        <rdfs:label xml:lang="en">MarniNixon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000118 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1937 – 1995) who played Sister Bernice.</rdfs:comment>
+        <rdfs:label xml:lang="en">EvadneBaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000119 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:comment>The actress (1896 – 1968) who played Baroness Ebberfield.</rdfs:comment>
+        <rdfs:label xml:lang="en">DorisLloyd</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
