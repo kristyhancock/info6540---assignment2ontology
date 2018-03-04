@@ -524,6 +524,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</rdfs:comment>
         <rdfs:label xml:lang="en">1_Prelude:TheSoundOfMusic</rdfs:label>
     </owl:Class>
     
@@ -533,6 +534,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Anna Lee, Portia Nelson, Marni Nixon and Evadne Baker.</rdfs:comment>
         <rdfs:label xml:lang="en">2_Overture:Preludium</rdfs:label>
     </owl:Class>
     
@@ -542,6 +544,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Anna Lee, Portia Nelson, Marni Nixon and Evadne Baker.</rdfs:comment>
         <rdfs:label xml:lang="en">3_MorningHymn:Alleluia</rdfs:label>
     </owl:Class>
     
@@ -551,6 +554,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Evadne Baker, Anna Lee, Portia Nelson and Marni Nixon.</rdfs:comment>
         <rdfs:label xml:lang="en">4_Maria</rdfs:label>
     </owl:Class>
     
@@ -560,6 +564,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</rdfs:comment>
         <rdfs:label xml:lang="en">5_IHaveConfidence</rdfs:label>
     </owl:Class>
     
@@ -569,6 +574,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Charmian Carr and Dan Truhitte.</rdfs:comment>
         <rdfs:label xml:lang="en">6_SixteenGoingOnSeventeen</rdfs:label>
     </owl:Class>
     
@@ -578,6 +584,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000127">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</rdfs:comment>
         <rdfs:label xml:lang="en">7_MyFavouriteThings</rdfs:label>
     </owl:Class>
     
@@ -587,6 +594,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</rdfs:comment>
         <rdfs:label xml:lang="en">8_DoReMi</rdfs:label>
     </owl:Class>
     
@@ -596,6 +604,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000129">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Kym Karath, Debbie Turner and Christopher Plummer.</rdfs:comment>
         <rdfs:label xml:lang="en">9_TheSoundOfMusic</rdfs:label>
     </owl:Class>
     
@@ -605,6 +614,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</rdfs:comment>
         <rdfs:label xml:lang="en">10_TheLonelyGoatherd</rdfs:label>
     </owl:Class>
     
@@ -614,6 +624,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000131">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</rdfs:comment>
         <rdfs:label xml:lang="en">11_SoLong,Farewell</rdfs:label>
     </owl:Class>
     
@@ -623,6 +634,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000132">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Peggy Wood.</rdfs:comment>
         <rdfs:label xml:lang="en">12_ClimbEv&apos;ryMountain</rdfs:label>
     </owl:Class>
     
@@ -632,6 +644,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews &amp; Christopher Plummer.</rdfs:comment>
         <rdfs:label xml:lang="en">13_SomethingGood</rdfs:label>
     </owl:Class>
     
@@ -641,6 +654,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Evadne Baker, Anna Lee, Portia Nelson and Marni Nixon.</rdfs:comment>
         <rdfs:label xml:lang="en">14_ProcessionalAndMaria</rdfs:label>
     </owl:Class>
     
@@ -650,6 +664,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000135">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Christopher Plummer, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</rdfs:comment>
         <rdfs:label xml:lang="en">15_EdelweissReprise</rdfs:label>
     </owl:Class>
     
@@ -659,6 +674,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000136">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Chorus and Orchestra.</rdfs:comment>
         <rdfs:label xml:lang="en">16_ClimbEv&apos;ryMountainReprise</rdfs:label>
     </owl:Class>
     
@@ -668,6 +684,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</rdfs:comment>
         <rdfs:label xml:lang="en">17_PreludeAndTheSoundOfMusic</rdfs:label>
     </owl:Class>
     
@@ -677,6 +694,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</rdfs:comment>
         <rdfs:label xml:lang="en">18_IHaveConfidence</rdfs:label>
     </owl:Class>
     
@@ -686,6 +704,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Charmian Carr.</rdfs:comment>
         <rdfs:label xml:lang="en">19_SixteenGoingOnSeventeenReprise</rdfs:label>
     </owl:Class>
     
@@ -695,6 +714,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000140">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Chorus.</rdfs:comment>
         <rdfs:label xml:lang="en">20_MyFavouriteThings/SalzburgMontage</rdfs:label>
     </owl:Class>
     
@@ -704,6 +724,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000141">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Captain Von Trapp, Maria, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner, Kym Karath and Chorus.</rdfs:comment>
         <rdfs:label xml:lang="en">21_EdelweissReprise</rdfs:label>
     </owl:Class>
     
@@ -713,6 +734,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000142">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Orchestra.</rdfs:comment>
         <rdfs:label xml:lang="en">22_TheGrandWaltz</rdfs:label>
     </owl:Class>
     
@@ -722,6 +744,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000143">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Orchestra.</rdfs:comment>
         <rdfs:label xml:lang="en">23_Laendler</rdfs:label>
     </owl:Class>
     
@@ -731,6 +754,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000144">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Orchestra.</rdfs:comment>
         <rdfs:label xml:lang="en">24_ProcessionalWaltz</rdfs:label>
     </owl:Class>
     
@@ -740,6 +764,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Christopher Plummer.</rdfs:comment>
         <rdfs:label xml:lang="en">25_SomethingGood</rdfs:label>
     </owl:Class>
     
@@ -749,6 +774,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack. Performed by Orchestra.</rdfs:comment>
         <rdfs:label xml:lang="en">26_TheChase</rdfs:label>
     </owl:Class>
     
@@ -758,6 +784,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:comment>A song from The Sound of Music soundtrack.</rdfs:comment>
         <rdfs:label xml:lang="en">27_Escape/ClimbEv&apos;ryMountainReprise/Finale</rdfs:label>
     </owl:Class>
 </rdf:RDF>
