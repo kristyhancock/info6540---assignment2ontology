@@ -13,6 +13,68 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000148 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000148">
+        <owl:inverseOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Played</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000149 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000149">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">isPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000150 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000150">
+        <rdfs:label xml:lang="en">Sang</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000151 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000151">
+        <rdfs:label xml:lang="en">isSungBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000154 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000154">
+        <rdfs:label xml:lang="en">hasChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000155 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000155">
+        <rdfs:label xml:lang="en">isChildOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -94,6 +156,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000077">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A young woman who leaves Nonnberg Abbey to become the governess of seven children.</rdfs:comment>
         <rdfs:label xml:lang="en">Maria</rdfs:label>
     </owl:Class>
@@ -104,6 +172,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000079">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A wealthy and cultivated socialite with whom Captain Von Trapp is romantically involved.</rdfs:comment>
         <rdfs:label xml:lang="en">BaronessSchraeder</rdfs:label>
     </owl:Class>
@@ -114,6 +188,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000080">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A retired Naval officer, widower, and the father of seven children.</rdfs:comment>
         <rdfs:label xml:lang="en">CaptainVonTrapp</rdfs:label>
     </owl:Class>
@@ -124,6 +204,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000081">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A close friend of the Von Trapp family.</rdfs:comment>
         <rdfs:label xml:lang="en">MaxDetweiler</rdfs:label>
     </owl:Class>
@@ -134,6 +220,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000082">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The reverend mother at Nonnberg Abbey.</rdfs:comment>
         <rdfs:label xml:lang="en">MotherAbbess</rdfs:label>
     </owl:Class>
@@ -144,6 +236,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000083">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">LieslVonTrapp</rdfs:label>
     </owl:Class>
@@ -154,6 +252,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000084">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The third eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">LouisaVonTrapp</rdfs:label>
     </owl:Class>
@@ -164,6 +268,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000085">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The second eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">FriedrichVonTrapp</rdfs:label>
     </owl:Class>
@@ -174,6 +284,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000086">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The fourth eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">KurtVonTrapp</rdfs:label>
     </owl:Class>
@@ -184,6 +300,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The fifth youngest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">BrigittaVonTrapp</rdfs:label>
     </owl:Class>
@@ -194,6 +316,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The sixth eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">MartaVonTrapp</rdfs:label>
     </owl:Class>
@@ -204,6 +332,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000089">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The seventh eldest of the Von Trapp children.</rdfs:comment>
         <rdfs:label xml:lang="en">GretlVonTrapp</rdfs:label>
     </owl:Class>
@@ -214,6 +348,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
         <rdfs:label xml:lang="en">SisterMargaretta</rdfs:label>
     </owl:Class>
@@ -224,6 +364,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000091">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
         <rdfs:label xml:lang="en">SisterBerthe</rdfs:label>
     </owl:Class>
@@ -234,6 +380,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000092">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A Nazi official.</rdfs:comment>
         <rdfs:label xml:lang="en">HerrZeller</rdfs:label>
     </owl:Class>
@@ -254,6 +406,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The Von Trapp housekeeper.</rdfs:comment>
         <rdfs:label xml:lang="en">FrauSchmidt</rdfs:label>
     </owl:Class>
@@ -264,6 +422,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The Von Trapp butler.</rdfs:comment>
         <rdfs:label xml:lang="en">Franz</rdfs:label>
     </owl:Class>
@@ -274,6 +438,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000096">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
         <rdfs:label xml:lang="en">SisterSophia</rdfs:label>
     </owl:Class>
@@ -284,6 +454,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000097">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A nun at Nonnberg Abbey.</rdfs:comment>
         <rdfs:label xml:lang="en">SisterBernice</rdfs:label>
     </owl:Class>
@@ -294,6 +470,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000098">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>An acquaintance of Captain Von Trapp’s.</rdfs:comment>
         <rdfs:label xml:lang="en">BaronessEbberfield</rdfs:label>
     </owl:Class>
@@ -304,6 +486,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000099">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1935 – present) who played Maria.</rdfs:comment>
         <rdfs:label xml:lang="en">JulieAndrews</rdfs:label>
     </owl:Class>
@@ -314,6 +502,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000100">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1929 – present) who played Captain Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">ChristopherPlummer</rdfs:label>
     </owl:Class>
@@ -324,6 +518,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000101">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1922 – 2013) who played Baroness Schraeder.</rdfs:comment>
         <rdfs:label xml:lang="en">EleanorParker</rdfs:label>
     </owl:Class>
@@ -334,6 +534,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000102">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1905 – 1985) who played Max Detweiler.</rdfs:comment>
         <rdfs:label xml:lang="en">RichardHaydn</rdfs:label>
     </owl:Class>
@@ -344,6 +550,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000103">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1892 – 1978) who played Mother Abbess.</rdfs:comment>
         <rdfs:label xml:lang="en">PeggyWood</rdfs:label>
     </owl:Class>
@@ -354,6 +566,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000104">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1942 – 2016) who played Liesl Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">CharmianCarr</rdfs:label>
     </owl:Class>
@@ -364,8 +582,14 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000105">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1949 – 2017) who played Louisa Von Trapp.</rdfs:comment>
-        <rdfs:label xml:lang="en">HeatherMenies-Urich</rdfs:label>
+        <rdfs:label xml:lang="en">HeatherMenzies-Urich</rdfs:label>
     </owl:Class>
     
 
@@ -374,6 +598,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000106">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1950 – present) who played Friedrich Von Trapp</rdfs:comment>
         <rdfs:label xml:lang="en">NicholasHammond</rdfs:label>
     </owl:Class>
@@ -384,6 +614,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000107">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1950 – present) who played Kurt Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">DuaneChase</rdfs:label>
     </owl:Class>
@@ -394,6 +630,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000108">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1952 – present) who played Brigitta Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">AngelaCartwright</rdfs:label>
     </owl:Class>
@@ -404,6 +646,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1956 – present) who played Marta Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">DebbieTurner</rdfs:label>
     </owl:Class>
@@ -414,6 +662,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1958 – present) who played Gretl Von Trapp.</rdfs:comment>
         <rdfs:label xml:lang="en">KymKarath</rdfs:label>
     </owl:Class>
@@ -424,6 +678,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1913 – 2004) who played Sister Margaretta.</rdfs:comment>
         <rdfs:label xml:lang="en">AnnaLee</rdfs:label>
     </owl:Class>
@@ -434,6 +694,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1920 – 2001) who played Sister Berthe.</rdfs:comment>
         <rdfs:label xml:lang="en">PortiaNelson</rdfs:label>
     </owl:Class>
@@ -444,6 +710,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1915 – 1989) who played Herr Zeller.</rdfs:comment>
         <rdfs:label xml:lang="en">BenWright</rdfs:label>
     </owl:Class>
@@ -454,6 +726,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1943 – present) who played Rolfe.</rdfs:comment>
         <rdfs:label xml:lang="en">DanielTruhitte</rdfs:label>
     </owl:Class>
@@ -464,6 +742,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1898 – 1989) who played Frau Schmidt.</rdfs:comment>
         <rdfs:label xml:lang="en">NormaVarden</rdfs:label>
     </owl:Class>
@@ -474,6 +758,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actor (1919 – 1977) who played Franz.</rdfs:comment>
         <rdfs:label xml:lang="en">GilchristStuart</rdfs:label>
     </owl:Class>
@@ -484,6 +774,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1930 – 2016) who played Sister Sophia.</rdfs:comment>
         <rdfs:label xml:lang="en">MarniNixon</rdfs:label>
     </owl:Class>
@@ -494,6 +790,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1937 – 1995) who played Sister Bernice.</rdfs:comment>
         <rdfs:label xml:lang="en">EvadneBaker</rdfs:label>
     </owl:Class>
@@ -504,6 +806,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000119">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The actress (1896 – 1968) who played Baroness Ebberfield.</rdfs:comment>
         <rdfs:label xml:lang="en">DorisLloyd</rdfs:label>
     </owl:Class>
@@ -786,6 +1094,15 @@
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
         <rdfs:comment>A song from The Sound of Music soundtrack.</rdfs:comment>
         <rdfs:label xml:lang="en">27_Escape/ClimbEv&apos;ryMountainReprise/Finale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000158 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000158">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:label xml:lang="en">Awards</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
