@@ -1224,7 +1224,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
@@ -1342,7 +1342,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
@@ -1380,7 +1380,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
@@ -1622,7 +1622,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Peggy Wood.</ontologies:PIZZA_0000161>
@@ -1635,6 +1635,18 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews &amp; Christopher Plummer.</ontologies:PIZZA_0000161>
         <rdfs:label xml:lang="en">13_SomethingGood</rdfs:label>
     </owl:Class>
@@ -1756,7 +1768,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
@@ -1772,7 +1784,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
@@ -1810,7 +1822,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Chorus.</ontologies:PIZZA_0000161>
